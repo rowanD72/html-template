@@ -1,0 +1,120 @@
+/* ===================================
+Global and body styles
+=====================================*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(rgba(0, 0, 0, 0.65))), url(/assets/apple-laptop.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/assets/apple-laptop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* ===========================
+Timeer Styles
+============================= */
+#timer {
+  text-align: center;
+  font-size: 2rem;
+  color: #2bb3ff;
+}
+
+/* ==================================
+Beginning of the Container Styles
+=================================== */
+.container {
+  padding: 0.9375em;
+  margin: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  top: 25%;
+  left: 0;
+}
+
+.container .site-description-header {
+  list-style: none;
+  display: inline;
+  padding: 0.3125em;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
+.container h1 {
+  font-size: 3.125em;
+  padding-bottom: 0.625em;
+  color: #2bb3ff;
+}
+
+.container p {
+  font-size: 1.875em;
+}
+
+.social-media {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.social-media .fab {
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 0.625em;
+}
+
+.social-media .fab:hover {
+  color: #2bb3ff;
+  -webkit-transition: ease-in 0.2s;
+  transition: ease-in 0.2s;
+}
+
+/* ===================================
+    Media Queries
+ ==================================== */
+@media screen and (orientation: landscape) {
+  .container {
+    padding: 0;
+    top: 18%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0.9375em;
+    margin: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    top: 40%;
+    left: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
